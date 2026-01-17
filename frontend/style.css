@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
@@ -8,21 +7,18 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
 body {
   min-height: 100vh;
-  background: linear-gradient(135deg, #2874f0, #1547b0);
+  background: linear-gradient(135deg, #ba46e8, #f107a3);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
 .auth-container {
   width: 100%;
   padding: 20px;
 }
-
 
 .auth-card {
   max-width: 400px;
@@ -30,17 +26,17 @@ body {
   margin: auto;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
   animation: fadeIn 0.6s ease;
 }
 
 .auth-card h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #1547b0;
+  color: #4512ed;
 }
 
-
+/* Form */
 .form-group {
   margin-bottom: 15px;
 }
@@ -48,7 +44,7 @@ body {
 .form-group label {
   display: block;
   font-size: 14px;
-  color: #333;
+  color: #444;
   margin-bottom: 5px;
 }
 
@@ -62,17 +58,17 @@ body {
 }
 
 .form-group input:focus {
-  border-color: #2874f0;
-  box-shadow: 0 0 0 2px rgba(40, 116, 240, 0.2);
+  border-color: #7b2ff7;
+  box-shadow: 0 0 0 2px rgba(123, 47, 247, 0.2);
 }
 
-
+/* Buttons */
 .btn {
   width: 100%;
   padding: 10px;
   border: none;
   border-radius: 8px;
-  background: #fb641b;
+  background: #f107a3;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
@@ -81,19 +77,19 @@ body {
 }
 
 .btn:hover {
-  background: #f55a18;
+  background: #d1068d;
 }
 
 .btn.secondary {
-  background: #ddd;
+  background: #e6e6e6;
   color: #333;
 }
 
 .btn.secondary:hover {
-  background: #bbb;
+  background: #cfcfcf;
 }
 
-
+/* Links */
 .link-text {
   text-align: center;
   margin-top: 12px;
@@ -101,7 +97,7 @@ body {
 }
 
 .link-text a {
-  color: #2874f0;
+  color: #7857ad;
   text-decoration: none;
   font-weight: 500;
 }
@@ -110,7 +106,7 @@ body {
   text-decoration: underline;
 }
 
-
+/* Animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
