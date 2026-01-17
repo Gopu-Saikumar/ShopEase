@@ -17,7 +17,7 @@ app.use(express.json());
 
 mongoose
 mongoose.connect(
-  "mongodb+srv://gopusaikumar05_db_user:saireddy05@cluster0.ay9thur.mongodb.net/shopeaseDB?retryWrites=true&w=majority&appName=Cluster0"
+"mongodb+srv://gopusaikumar05_db_user:saireddy05@cluster0.ay9thur.mongodb.net/shopeaseDB?retryWrites=true&w=majority&appName=Cluster0"
 )
 .then(() => console.log("MongoDB Connected ✅"))
 .catch(err => console.log("MongoDB Error ❌", err));
